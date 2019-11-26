@@ -10,10 +10,10 @@ const playersize = 100;
 const bubblesize = 150;
 
 function preload() {
-  fondo = loadImage('./../images/fondo.png');
-  imgLPlayer = loadImage('./../images/pixelL.png');
-  imgRPlayer = loadImage('./../images/pixelR.png');
-  imgBurbuja = loadImage('./../images/burbuja.png');
+  fondo = loadImage(`${window.location.href}img/fondo.png`);
+  imgLPlayer = loadImage(`${window.location.href}img/pixelL.png`);
+  imgRPlayer = loadImage(`${window.location.href}img/pixelR.png`);
+  imgBurbuja = loadImage(`${window.location.href}img/burbuja.png`);
 }
 
 function setup() {
