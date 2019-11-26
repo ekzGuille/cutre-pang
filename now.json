@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "cutre-pang",
+  "builds": [
+    {
+      "src": "*",
+      "use": "@now/static"
+    }
+  ],
+  "alias": [
+    "cutre-pang"
+  ]
+}
